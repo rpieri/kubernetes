@@ -6,7 +6,7 @@ metadata:
   name: mysql
 spec:
   externalIPs:
-    - 51.15.249.88
+    - 163.172.171.87
   ports:
     - port: 3306
   selector:
