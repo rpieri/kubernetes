@@ -8,7 +8,6 @@ spec:
   externalIPs:
     - 51.15.249.88
   ports:
-    - protocol: TCP
-      port: 3306
-      selector:
-        name: mysql
+    - port: 3306
+  selector:
+    name: mysql
