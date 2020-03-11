@@ -9,7 +9,7 @@ spec:
     - resources:
         limits:
           cpu: 0.5
-      image: openshift/mysql-55-centos7
+      image: mysql
       name: mysql
       env:
         - name: MYSQL_ROOT_PASSWORD
