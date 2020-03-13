@@ -1,0 +1,14 @@
+kubectl scale deployment/meu-primeiro-deploy --replicas=1  /escalonmento
+kubectl get pods //lista pods
+kubectl get pods -o wide // lista pods mais completo
+kubectl get deployment /lista deployment
+kubectl get all --all-namespaces //todas as informacoes do kunermetes
+kubectl get services //lista os services
+kubectl expose deployment meu-primeiro-deploy --type=NodePort //expose um deploy
+kubectl describe services my-service //descreve um servico
+kubectl create -f exemplo.service.yaml //executa um yaml
+kubectl exec meu-primeiro-deploy-67c6c99b98-j9kc8 -- ls / /executa um commando
+kubectl describe pod/meu-primeiro-deploy-67c6c99b98-j9kc8 //descreve um pod
+kubectl describe //descreve algo
+kubectl logs //mostra os logs
+kubectl run executa um deploy
